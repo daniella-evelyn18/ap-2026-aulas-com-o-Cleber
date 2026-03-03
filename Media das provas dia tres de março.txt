@@ -1,0 +1,29 @@
+algoritmo <media das provas>
+
+inicio
+
+var 
+nome: caractere
+nota1, nota2, nota3, media: real
+
+escreva ( "Digite seu nome: ")
+leia (nome)
+
+escreva ( "Digite a primeira nota: ")
+leia (nota1)
+
+escreva ( "Digite a primeira nota: ")
+leia (nota1)
+
+escreva ( "Digite a segunda nota: ")
+leia (nota2)
+
+escreva ( "Digite a terceira nota: ")
+leia (nota3)
+
+Media <- (nota1 + nota2 + nota3) / 3
+
+Escreva("Aluno: ", nome)
+Escreva("Media: ", Media)
+
+fim
