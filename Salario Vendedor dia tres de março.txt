@@ -1,0 +1,28 @@
+Algoritmo "SalarioVendedor"
+
+inicio
+
+var
+nome : caractere
+salarioFixo, totalVendas, comissao, salarioTotal : real
+
+
+escreva("Digite o nome do vendedor: ")
+leia(nome)
+   
+escreva("Digite o salário fixo: ")
+leia(salarioFixo)
+   
+escreva("Digite o total de vendas no mês: ")
+leia(totalVendas)
+
+
+comissao <- totalVendas * 0.15
+salarioTotal <- salarioFixo + comissao
+
+
+escreva("Nome do vendedor: ", nome)
+escreva("Salário fixo: R$ ", salarioFixo)
+escreva("Salário com comissão: R$ ", salarioTotal)
+
+fim

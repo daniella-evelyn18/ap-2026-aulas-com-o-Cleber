@@ -1,0 +1,23 @@
+Algoritmo "TrocaValores"
+
+inicio
+
+var
+A, B, TEMP : inteiro
+
+escreva("Digite o valor de A: ")
+leia(A)
+   
+escreva("Digite o valor de B: ")
+leia(B)
+
+
+TEMP <- A
+A <- B
+B <- TEMP
+
+escreva("Após a troca:")
+escreva("A = ", A)
+escreva("B = ", B)
+
+fim
